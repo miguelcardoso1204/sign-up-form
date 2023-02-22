@@ -64,6 +64,10 @@ footer {
   text-align: center;
 }
 
+footer > * {
+  margin: 0px 15px;
+}
+
 #form-div {
   width: 55%;
   background-color: rgb(250, 250, 250);
@@ -136,8 +140,12 @@ button[type="submit"] {
   font-weight: 700;
 }
 
-span {
-  height: 10px
+#password-span {
+  display: none;
+  height: 10px;
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
 }
 
 input:not(:placeholder-shown):invalid:not(:focus) {
